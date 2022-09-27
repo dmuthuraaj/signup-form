@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #1b1b32;
+    color: aliceblue;
+}
+
+header h1 {
+    text-align: center;
+}
+
+form {
+    width: 55%;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 20px auto;
+}
+
+.form fieldset {
+    border: 1px solid black;
+    padding: 20px;
+}
+
+label {
+    display: block;
+    padding: 10px 0;
+    /* margin-bottom: 10px; */
+}
+
+input {
+    width: 100%;
+    background-color: #0a0a23;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+
+.inline{
+    display: inline;
+    margin-bottom: 20px;
+    /* width: unset; */
+}
+ 
+.check {
+    width: unset;
+    margin-right: 10px;
+} 
+
+input[type="submit"]{
+    margin-top: 20px;
+}
